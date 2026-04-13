@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = str(BASE_DIR / "veryhiadv.db")
+DB_PATH = str(BASE_DIR / "verihiadv.db")
 UPLOAD_DIR = BASE_DIR / "uploads"
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
